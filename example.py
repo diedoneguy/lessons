@@ -1,5 +1,7 @@
 
-a = {'game':" gta"}
+a = {
+'game':" gta"
+}
 a.update({'cinema':"hrre a"})
 print(a)
 a.update({'trainings' : "push ups"})
@@ -9,8 +11,18 @@ print(a)
 a.pop("game")
 print(a)
 
-a = {'cow','dog','fox','cat'}
-b = {'horse','fox','cat','dog'}
+a = {
+'cow',
+'dog',
+'fox',
+'cat'
+}
+b = {
+'horse',
+'fox',
+'cat',
+'dog'
+}
 a.difference(b)
 print(a)
 
@@ -31,3 +43,8 @@ elif what == "/":
 	print("результат: " + str (c))
 else:
 	print("неверная информация")
+
+proffesion = {'Jacob':driverl
+
+numbers = {21,21,21,23,12}
+print(numbers)
